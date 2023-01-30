@@ -3,7 +3,8 @@ import cv2
 from PIL import Image
 
 # Open image and convert to RGB
-im = Image.open("image.jpg").convert("RGB")
+# im = Image.open("image.jpg").convert("RGB")
+im = Image.open("shapes1.png").convert("RGB")
 
 # Convert image to numpy array and grayscale
 np_im = np.array(im)
